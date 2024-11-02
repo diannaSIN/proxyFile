@@ -71,7 +71,7 @@ payload:
   - DOMAIN-SUFFIX,xmsl.org
   - DOMAIN-SUFFIX,airpor.top
   - DOMAIN-SUFFIX,mius.uk
-    - DOMAIN-SUFFIX,emby.wtf
+  - DOMAIN-SUFFIX,emby.wtf
   - DOMAIN-SUFFIX,pub1back.emby.wtf
   - DOMAIN-SUFFIX,pub2back.emby.wtf
   - DOMAIN-SUFFIX,pub3back.emby.wtf
