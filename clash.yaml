@@ -675,7 +675,7 @@ rule-providers:
   Emby: 
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/affman9/proxyFile/refs/heads/main/Emby.yaml
+    url: https://raw.githubusercontent.com/diannaSIN/proxyFile/refs/heads/main/Emby.yaml
     path: ./Rule/Emby.yaml
     interval: 3600
 
