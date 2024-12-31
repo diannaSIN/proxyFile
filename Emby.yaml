@@ -43,13 +43,22 @@ payload:
   - DOMAIN-SUFFIX,cf.jmsooo.com
   - DOMAIN-SUFFIX,hk.jmsooo.com
   - DOMAIN-SUFFIX,sg.jmsooo.com
+  - DOMAIN-SUFFIX,sfcj.org
+  - DOMAIN-SUFFIX,aliz.work
+  - DOMAIN-SUFFIX,1024.name
   - DOMAIN-KEYWORD,emby
   - DOMAIN-KEYWORD,peachmv
   - DOMAIN-KEYWORD,stream
+  - DOMAIN-KEYWORD,nanflix
   - DOMAIN-KEYWORD,mjjemby
   - DOMAIN-KEYWORD,581658
-  - DOMAIN-KEYWORD,nanflix
   - DOMAIN-KEYWORD,pilipili
+  - DOMAIN-KEYWORD,mooguu
+  - DOMAIN-KEYWORD,tdck
+  - DOMAIN-KEYWORD,alphatvapp
+  - DOMAIN-KEYWORD,nebula-media
+  - DOMAIN-KEYWORD,misty
+  - DOMAIN-KEYWORD,auroramedia
   - DOMAIN-KEYWORD,catlinks
   - DOMAIN-KEYWORD,reddust
   - DOMAIN-KEYWORD,20120714
