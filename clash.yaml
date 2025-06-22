@@ -379,6 +379,7 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/Telegram.png
     filter: (?i)狮|獅|🇸🇬|加坡|SG|Singapore
+    exclude-filter: Emby|EMBY|emby
     use: 
       - airport00_Subscription
       - airport01_Subscription
@@ -443,6 +444,7 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/chatgpt4.0.png
     filter: (?i)美(国|國)|🇺🇸|US|States|American
+    exclude-filter: Emby|EMBY|emby
     use: 
       - airport00_Subscription
       - airport01_Subscription
@@ -481,6 +483,7 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Google_Suite/Voice.png
     filter: (?i)美(国|國)|🇺🇸|US|States|American
+    exclude-filter: Emby|EMBY|emby
     use: 
       - airport00_Subscription
       - airport01_Subscription
@@ -519,6 +522,7 @@ proxy-groups:
     type: url-test
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Hong_Kong.png
     filter: (?i)香港|🇭🇰|HK|Hong
+    exclude-filter: Emby|EMBY|emby
     use: 
       - airport00_Subscription
       - airport01_Subscription
@@ -535,6 +539,7 @@ proxy-groups:
     type: url-test
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/China.png
     filter: (?i)台(湾|灣)|🇨🇳|TW|Taiwan
+    exclude-filter: Emby|EMBY|emby
     use: 
       - airport00_Subscription
       - airport01_Subscription
@@ -551,6 +556,7 @@ proxy-groups:
     type: url-test
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/United_States.png
     filter: (?i)美(国|國)|🇺🇸|US|States|American
+    exclude-filter: Emby|EMBY|emby
     use: 
       - airport00_Subscription
       - airport01_Subscription
@@ -567,6 +573,7 @@ proxy-groups:
     type: url-test
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Japan.png
     filter: (?i)日本|🇯🇵|(东|東)京|JP|Japan
+    exclude-filter: Emby|EMBY|emby
     use: 
       - airport00_Subscription
       - airport01_Subscription
@@ -583,6 +590,7 @@ proxy-groups:
     type: url-test
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Singapore.png
     filter: (?i)狮|獅|🇸🇬|加坡|SG|Singapore
+    exclude-filter: Emby|EMBY|emby
     use: 
       - airport00_Subscription
       - airport01_Subscription
