@@ -817,6 +817,30 @@ rules:
  # - RULE-SET,Advertising,REJECT
   - RULE-SET,China,𝑪𝒉𝒊𝒏𝒂
 
+    # mdcng刮削源分流
+  - DOMAIN-SUFFIX,airav.wiki,𝑱𝑷
+  - DOMAIN,www.airav.wiki,𝑱𝑷
+  - DOMAIN-SUFFIX,airav.io,𝑱𝑷
+  - DOMAIN,www.avbase.net,𝑱𝑷
+  - DOMAIN-SUFFIX,avbase.net,𝑱𝑷
+  - DOMAIN,avmoo.website,𝑱𝑷
+  - DOMAIN,avsox.click,𝑱𝑷
+  - DOMAIN,www.caribbeancom.com,𝑱𝑷
+  - DOMAIN-SUFFIX,caribbeancom.com,𝑱𝑷
+  - DOMAIN,www.dmm.co.jp,𝑱𝑷
+  - DOMAIN-SUFFIX,dmm.co.jp,𝑱𝑷
+  - DOMAIN,adult.contents.fc2.com,𝑱𝑷
+  - DOMAIN-SUFFIX,contents.fc2.com,𝑱𝑷
+  - DOMAIN,www.javbus.com,𝑱𝑷
+  - DOMAIN-SUFFIX,javbus.com,𝑱𝑷
+  - DOMAIN,www.javlibrary.com,𝑱𝑷
+  - DOMAIN-SUFFIX,javlibrary.com,𝑱𝑷
+  - DOMAIN,madouqu.com,𝑱𝑷
+  - DOMAIN,www.mgstage.com,𝑱𝑷
+  - DOMAIN-SUFFIX,mgstage.com,𝑱𝑷
+  - DOMAIN,missav123.com,𝑱𝑷
+  - DOMAIN,theporndb.net,𝑱𝑷
+
   # 默认规则设置
   - DOMAIN-SUFFIX,live.cn,𝑪𝒉𝒊𝒏𝒂
   - PROCESS-NAME,v2ray,DIRECT
