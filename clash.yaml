@@ -817,6 +817,23 @@ rules:
  # - RULE-SET,Advertising,REJECT
   - RULE-SET,China,𝑪𝒉𝒊𝒏𝒂
 
+  # 一些AIapi相关
+  - DOMAIN,api.ohmygpt.com,𝑶𝒑𝒆𝒏𝑨𝑰
+  - DOMAIN,api.z.ai,𝑶𝒑𝒆𝒏𝑨𝑰
+  - DOMAIN,api.siliconflow.com,𝑶𝒑𝒆𝒏𝑨𝑰
+  - DOMAIN,aihubmix.com,𝑶𝒑𝒆𝒏𝑨𝑰
+  - DOMAIN,openrouter.ai,𝑶𝒑𝒆𝒏𝑨𝑰
+  - DOMAIN,open.bigmodel.cn,DIRECT
+  - DOMAIN,api.siliconflow.cn,DIRECT
+  
+  - DOMAIN-SUFFIX,ohmygpt.com,𝑶𝒑𝒆𝒏𝑨𝑰
+  - DOMAIN-SUFFIX,z.ai,𝑶𝒑𝒆𝒏𝑨𝑰
+  - DOMAIN-SUFFIX,siliconflow.com,𝑶𝒑𝒆𝒏𝑨𝑰
+  - DOMAIN-SUFFIX,aihubmix.com,𝑶𝒑𝒆𝒏𝑨𝑰
+  - DOMAIN-SUFFIX,openrouter.ai,𝑶𝒑𝒆𝒏𝑨𝑰
+  - DOMAIN-SUFFIX,bigmodel.cn,DIRECT
+  - DOMAIN-SUFFIX,siliconflow.cn,DIRECT
+
     # mdcng刮削源分流
   - DOMAIN-SUFFIX,airav.wiki,𝑱𝑷
   - DOMAIN,www.airav.wiki,𝑱𝑷
