@@ -467,18 +467,6 @@ proxy-groups:
       - 𝑱𝑷
       - DIRECT
 
-  - name: 𝑮𝒐𝒐𝒈𝒍𝒆
-    type: select
-    icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Google_Suite/Google.png
-    proxies:
-      - 𝑷𝒓𝒐𝒙𝒚
-      - 𝑯𝑲
-      - 𝑻𝑾
-      - 𝑼𝑺
-      - 𝑱𝑷
-      - 𝑺𝑮
-      - 𝑭𝒊𝒏𝒂𝒍_𝑴𝒂𝒕𝒄𝒉
-
   - name: 𝑮𝒐𝒐𝒈𝒍𝒆𝑽𝒐𝒊𝒄𝒆
     type: select
     icon: https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Google_Suite/Voice.png
@@ -722,6 +710,13 @@ rule-providers:
     path: ./Rule/Claude.yaml
     interval: 3600
 
+  Anthropic: 
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Anthropic/Anthropic.yaml
+    path: ./Rule/Claude.yaml
+    interval: 3600
+    
   GoogleVoice: 
     type: http
     behavior: classical
@@ -754,6 +749,20 @@ rule-providers:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml
+    path: ./Rule/Google.yaml
+    interval: 3600
+
+  GoogleDrive: 
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleDrive/GoogleDrive.yaml
+    path: ./Rule/Google.yaml
+    interval: 3600
+
+  GoogleEarth: 
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleEarth/GoogleEarth.yaml
     path: ./Rule/Google.yaml
     interval: 3600
 
@@ -809,11 +818,14 @@ rules:
   - RULE-SET,Copilot,𝑶𝒑𝒆𝒏𝑨𝑰
   - RULE-SET,Gemini,𝑶𝒑𝒆𝒏𝑨𝑰
   - RULE-SET,Claude,𝑶𝒑𝒆𝒏𝑨𝑰
+  - RULE-SET,Anthropic,𝑶𝒑𝒆𝒏𝑨𝑰
   - RULE-SET,GoogleVoice,𝑮𝒐𝒐𝒈𝒍𝒆𝑽𝒐𝒊𝒄𝒆
   - RULE-SET,Apple,𝑨𝒑𝒑𝒍𝒆
   - RULE-SET,AppleID,𝑨𝒑𝒑𝒍𝒆
   - RULE-SET,AppleProxy,𝑨𝒑𝒑𝒍𝒆
-  - RULE-SET,Google,𝑮𝒐𝒐𝒈𝒍𝒆
+  - RULE-SET,Google,𝑼𝑺
+  - RULE-SET,GoogleDrive,𝑼𝑺
+  - RULE-SET,GoogleEarth,𝑼𝑺
  # - RULE-SET,Advertising,REJECT
   - RULE-SET,China,𝑪𝒉𝒊𝒏𝒂
 
